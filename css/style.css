@@ -66,6 +66,13 @@ border-color: #0288D1;
 }
 .photo > .wrapper > .info > p{
 	margin-bottom: 0;
+	color: #212121;
+}
+.photo > .wrapper > .info > a{
+	color: #212121;
+}
+.photo > .wrapper > .info > a.active{
+	color: #B71C1C;
 }
 .photo > .wrapper > a.link{
 	position: absolute;
