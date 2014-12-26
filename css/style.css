@@ -36,18 +36,24 @@ border-color: #0288D1;
 	padding: 0;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
+.photo > .wrapper:hover{
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+	cursor: auto;
+}
 .photo > .wrapper > .refer{
 	position: absolute;
 	top: 16px;
 	right: 16px;
 	padding: 4px;
 	background-color: rgba(238, 238, 238, 0.7);
+	z-index: 99;
 }
 .photo > .wrapper > .refer > p{
 	margin-bottom: 0;
 }
 .photo > .wrapper > .img{
 	min-height: 200px;
+	z-index: 99;
 }
 .photo > .wrapper > .info{
 	position: absolute;
@@ -56,7 +62,16 @@ border-color: #0288D1;
 	left: 16px;
 	padding: 16px;
 	background-color: rgba(238, 238, 238, 0.7);
+	z-index: 99;
 }
 .photo > .wrapper > .info > p{
 	margin-bottom: 0;
+}
+.photo > .wrapper > a.link{
+	position: absolute;
+	top: 16px; 
+	right: 16px;
+	left: 16px;
+	bottom: 16px;
+	z-index: 0;
 }
