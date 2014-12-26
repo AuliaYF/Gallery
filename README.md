@@ -1,0 +1,4 @@
+Gallery
+=======
+
+Simple Gallery Template
